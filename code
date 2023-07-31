@@ -1,0 +1,10 @@
+// STEP 1: Create an object called 'helloSpeaker'
+var helloSpeaker = {};
+
+// STEP 2: Set the 'speakWord' property of the 'helloSpeaker' object to "Hello"
+helloSpeaker.speakWord = "Hello";
+
+// STEP 3: Attach the 'speak' function to the 'helloSpeaker' object
+helloSpeaker.speak = function (name) {
+  console.log(helloSpeaker.speakWord + " " + name);
+};
